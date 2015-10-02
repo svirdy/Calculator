@@ -134,13 +134,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiG-Fl-n02">
                                 <rect key="frame" x="469.5" y="28" width="102.5" height="135"/>
-                                <state key="normal" title="✕"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cq-xw-cXn">
-                                <rect key="frame" x="469.5" y="28" width="102.5" height="135"/>
-                                <connections>
-                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CTt-7u-4MV"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVJ-fp-FWl">
                                 <rect key="frame" x="28" y="457" width="102.5" height="135"/>
@@ -162,6 +155,12 @@
                                 <state key="normal" title="√"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ks4-AT-2Zv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cq-xw-cXn">
+                                <rect key="frame" x="469" y="28" width="102.5" height="135"/>
+                                <connections>
+                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CTt-7u-4MV"/>
                                 </connections>
                             </button>
                         </subviews>
